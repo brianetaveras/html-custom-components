@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.chip-checkbox .chip-checkbox-label {
+  display: inline-block;
+  max-width: 250px;
+  padding: 2rem;
+  border-radius: 5rem;
+  border-radius: 1;
+  border: 2px solid #fc8f38;
+  color: #fc8f38;
+  font-weight: bold;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.chip-checkbox .chip-checkbox-input {
+  display: none;
+}
+.chip-checkbox .chip-checkbox-input:checked + .chip-checkbox-label {
+  background: rgba(252, 143, 56, 0.3);
+}
+
+/*# sourceMappingURL=style.css.map */

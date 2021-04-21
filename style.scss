@@ -1,0 +1,32 @@
+$green: #fc8f38;
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.chip-checkbox{
+    .chip-checkbox-label{
+        display: inline-block;
+        max-width: 250px;
+        padding: 2rem;
+        border-radius: 5rem;
+        border-radius: 1;
+        border: 2px solid $green;
+        color: $green;
+        font-weight: bold;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        user-select: none;
+        cursor: pointer;
+        transition: background 0.5s;
+    }
+    .chip-checkbox-input{
+        display: none;
+
+        &:checked + .chip-checkbox-label{
+            background: rgba($green, 0.3);
+        }
+    }
+}
